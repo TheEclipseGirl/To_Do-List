@@ -1,0 +1,41 @@
+/* Cursor pointer for a particular class i.e: Change-cursor */
+.change-cursor:hover{
+    cursor: pointer;
+}
+/* Change Task Css  */
+.complete-tasks{
+    transition: all 1s;
+
+}
+.complete-tasks:hover{
+      color: rgb(10, 224, 10);
+     transform: scale(1.1);
+  }
+
+  /* Clear complete Css */
+  .clear-task{
+      transition: all 1s;
+  }
+  .clear-task:hover{
+    color: rgb(250, 23, 23);
+   transform: scale(1.1);
+}
+
+/* Task Container Css */
+.clear i{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+
+.task:hover > .clear i{
+    visibility: visible;
+    opacity: 1;
+}
+
+.checkbox:checked ~ span{
+    text-decoration: line-through;
+}
+
+

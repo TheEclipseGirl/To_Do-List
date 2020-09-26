@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css"> 
+    <title>TO DO List</title>
+    </head>
+
+    <body>
+       <!-- Main-container -->
+      
+        <div id="container" class="col-lg-6 col-md-6 col-sm-8 col-10 col-6 mx-auto mt-5 pt-5 pb-5" style=" background-color:pink">
+            <!-- Heading Div -->
+            <div class="mx-auto col-6" style="text-align: center;">
+                <h1 style="color:rgb(255, 255, 255) ;">TO DO LIST</h1>
+            </div>
+            <!-- ToDo List Container -->
+            <div id="inner-container" class="bg-light mx-auto pt-4 col-10 pb-4">
+                <!--Type Task Container  -->
+                <div class="border-top rounded-sm pl-2" style="background-color: darkgrey;"> 
+                    <i class="fas fa-list" style="color:olivedrab;"></i>
+                    <input id="box" type="text" placeholder="Type Your ToDo List" class="border-0 col-9" style="background-color: darkgrey; outline: none;">
+                    <i id="button" class="fas fa-plus-square" title="Press enter to add task!" style="color: olivedrab; font-size: large;"></i>
+                </div>
+               
+                <!-- complete All Tasks And Clear Completed -->
+               
+                <hr>
+                <!-- Div for Task Add -->
+                <div id="tasks-container">
+                   
+                    <p id="token"> </p>
+
+                </div>
+                
+                <hr>
+                <!-- Div for Left and All Incomplete tasks -->
+                <div class="d-flex justify-content-between" style="font-size:small;">
+                    <div class="change-cursor">
+                        <p> <span id="taskAdd" style="color: olivedrab;">0</span> Tasks Left</p>
+                    </div>
+                    
+                </div>
+             </div>
+          
+        </div>
+        <!-- font-awesome cdn -->
+        <script src="https://kit.fontawesome.com/c90807128e.js" crossorigin="anonymous"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- JavaScript File path -->
+        <script src="./js/home.js"> </script>
+    </body>
+    
+</html>
